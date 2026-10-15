@@ -14,6 +14,7 @@ const About = () => {
       console.log("INI USERNAME ABOUT :", user.username);
       console.log("INI USERNAME ABOUT :", user.id);
       console.log("INI USERNAME ABOUT :", user.phone);
+      console.log("INI USERNAME ABOUT :", user.phone);
       setUser(user);
     } catch (error) {
       console.log(error);
