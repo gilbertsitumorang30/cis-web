@@ -19,8 +19,9 @@ const getUsers=async ()=>{
   return (
     <div>
         <h1 className="text-red-800 text-7xl">Ini about {user?.username}</h1>
-        <h1>About dengan git</h1>
+        <h2>Ini dibuat Chelsea</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse sed reiciendis, repellat eius quia laboriosam, quod aliquid fugiat dignissimos autem blanditiis perspiciatis deleniti? Nobis officiis distinctio eveniet, magnam voluptatum odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolorum eligendi dolores. Minima, autem veniam voluptatem natus temporibus doloremque odit provident consequuntur minus impedit voluptas ipsa reprehenderit id et unde?</p>
     </div>
   )
 }
