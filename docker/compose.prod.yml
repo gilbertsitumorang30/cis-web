@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL}
+
+    container_name: cis_web
+
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
