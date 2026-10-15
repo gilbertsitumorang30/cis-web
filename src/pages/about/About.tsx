@@ -23,7 +23,10 @@ const About = () => {
 
   return (
     <div>
-      <h1 className="text-red-800 text-7xl">Ini about {user?.username}</h1>
+        <h1 className="text-red-800 text-7xl">Ini about {user?.username}</h1>
+        <h2>Ini dibuat Chelsea</h2>
+       
+     
       <h1>About dengan git</h1>
       <h2>Ini dibuat Gilbert</h2>
       <p>
@@ -32,6 +35,7 @@ const About = () => {
         dignissimos autem blanditiis perspiciatis deleniti? Nobis officiis
         distinctio eveniet, magnam voluptatum odio.
       </p>
+
     </div>
   );
 };
